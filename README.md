@@ -1,3 +1,12 @@
+<h1>Movie Search App</h1>
+This app for search movies from TMDB database with their api.
+App live link https://findmovies.netlify.app/
+
+Developed with React JS, React Hooks ,Styled with CSS and Hosted on NETLIFY.
+
+<img src='http://rs002346.fastrootserver.de/ashok/react.png' />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
