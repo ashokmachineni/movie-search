@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./search.css";
+import MovieCard from "./MovieCard";
 
 function SearchMovies() {
   //states -input query,movies
@@ -37,7 +38,13 @@ function SearchMovies() {
           Search
         </button>
       </form>
-      <div className="card-list">{movies.map(movie => movie.title)}</div>
+      <div className="card-list">
+        {movies
+          .filter(movie => movie.poster_path)
+          .map(movie => (
+            <MovieCard movie={movie} />
+          ))}
+      </div>
     </>
   );
 }

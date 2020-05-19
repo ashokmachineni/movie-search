@@ -42,3 +42,16 @@
         margin-bottom: 0;
     }
 }
+
+.card {
+    padding: 2rem 4rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin: 2rem;
+    background-color: white;
+}
+
+.card--title {
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+}
